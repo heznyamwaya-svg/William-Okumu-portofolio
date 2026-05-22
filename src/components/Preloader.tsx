@@ -123,9 +123,9 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
 
       {/* images in the preloead showing his journey to the BAR */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <div ref={imgRef1} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("images/William4.jpeg")' }} />
-        <div ref={imgRef2} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("images/willysign.jpeg")' }} />
-        <div ref={imgRef3} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("images/William-profile.webp")' }} />
+        <div ref={imgRef1} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("/images/William4.jpeg")' }} />
+        <div ref={imgRef2} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("/images/willysign.jpeg")' }} />
+        <div ref={imgRef3} className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("/images/William-profile.webp")' }} />
       </div>
 
       {/* Morphing Background Bars */}
