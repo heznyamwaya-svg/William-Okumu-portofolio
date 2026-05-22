@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Luxury Legal Palette */
+  --color-luxury-white: #F8F6F1;
+  --color-luxury-cream: #EFE7DA;
+  --color-luxury-gold: #C8A96B;
+  --color-luxury-black: #111111;
+  --color-luxury-gray: #666666;
+  --color-luxury-amber: #FFD89B;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-luxury-white text-luxury-black font-sans selection:bg-luxury-gold selection:text-white;
+    cursor: none;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/40 backdrop-blur-md border border-white/20;
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("https://res.cloudinary.com/dzvxs72df/image/upload/v1714578000/noise_uvwuvw.png");
+  }
+
+  .light-sweep {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .light-sweep::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(200, 169, 107, 0.2),
+      transparent
+    );
+    animation: sweep 4s infinite;
+  }
+}
+
+@keyframes sweep {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
+}
+
+.luxury-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-luxury-gold) transparent;
+}
+
+.luxury-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.luxury-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.luxury-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-luxury-gold);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat-scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: var(--color-luxury-gold) transparent !important;
+}
+
+.chat-scrollbar::-webkit-scrollbar {
+  display: block !important;
+  width: 6px !important;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: rgba(200, 169, 107, 0.05) !important;
+  border-radius: 20px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-luxury-gold) !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Base scrollbar hide for body but allow on specific elements */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure data-lenis-prevent elements explicitly show their scrollbar if requested */
+[data-lenis-prevent] {
+  scrollbar-width: auto !important;
+  overscroll-behavior: contain;
+}
