@@ -14,6 +14,7 @@ import LandmarkCases from './sections/LandmarkCases';
 import ExperienceTimeline from './sections/ExperienceTimeline';
 import LegalPhilosophy from './sections/LegalPhilosophy';
 import ImpactAchievements from './sections/ImpactAchievements';
+import Gallery from './sections/Gallery';
 import PublicAdvocacy from './sections/PublicAdvocacy';
 import TraumaInformedServices from './sections/TraumaInformedServices';
 import LegalEducation from './sections/LegalEducation';
@@ -54,6 +55,7 @@ export default function App() {
         <div id="milestones"><ExperienceTimeline /></div>
         <div id="philosophy"><LegalPhilosophy /></div>
         <div id="impact"><ImpactAchievements /></div>
+        <div id="gallery"><Gallery /></div>
         <div id="advocacy"><PublicAdvocacy /></div>
         <TraumaInformedServices />
         <div id="academy"><LegalEducation /></div>
@@ -74,6 +76,7 @@ export default function App() {
             { name: 'Expertise', href: '#expertise' },
             { name: 'Records', href: '#cases' },
             { name: 'Impact', href: '#impact' },
+            { name: 'Gallery', href: '#gallery' },
             { name: 'Resume', href: '#dossier' },
           ].map((link) => (
             <a 
@@ -91,4 +94,3 @@ export default function App() {
     </main>
   );
 }
-

@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { name: "Expertise", href: "#expertise" },
   { name: "Records", href: "#cases" },
   { name: "Impact", href: "#impact" },
+  { name: "Gallery", href: "#gallery" },
   { name: "Resume", href: "#dossier" },
   { name: "Milestones", href: "#milestones" },
   { name: "Manifesto", href: "#philosophy" },
