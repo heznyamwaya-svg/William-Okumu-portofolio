@@ -158,7 +158,7 @@ export default function LegalPhilosophy() {
             <div className="flex flex-col items-center gap-4">
                <div className="w-12 h-[1px] bg-luxury-gold" />
                <p className="font-mono text-[10px] uppercase tracking-[0.8em] text-luxury-gold">
-                 Counselor William Okumu Onyango
+                 William Okumu (Advocate)
                </p>
             </div>
           </div>

@@ -95,7 +95,7 @@ export default function ResumeDossier() {
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
       pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-      pdf.save('William_Onyango_Legal_Dossier.pdf');
+      pdf.save('William_Okumu_Legal_Dossier.pdf');
     } catch (error) {
       console.error("PDF Export failed:", error);
     } finally {
@@ -126,7 +126,7 @@ export default function ResumeDossier() {
                  <span className="italic text-luxury-gold underline decoration-luxury-gold/20 underline-offset-[16px]">Legacy.</span>
               </h2>
               <p className="text-xl lg:text-2xl text-luxury-gray font-light max-w-xl leading-relaxed">
-                 Access the comprehensive legal dossier of Advocate William Okumu Onyango. A chronicle of transformation, advocacy, and landmark justice reform.
+                 Access the comprehensive legal dossier of Advocate William Okumu. A chronicle of transformation, advocacy, and landmark justice reform.
               </p>
            </div>
 
@@ -191,7 +191,7 @@ export default function ResumeDossier() {
                     <h3 className="text-4xl font-serif font-black text-luxury-black leading-tight">Curriculum <br /> Vitae</h3>
                     <div className="h-[1px] w-12 bg-luxury-gold" />
                     <p className="text-lg text-luxury-gray font-light">
-                       Advocate William Okumu Onyango. <br />
+                       Advocate William Okumu. <br />
                        Professional Legacy & Justice Blueprint.
                     </p>
                  </div>
@@ -224,7 +224,7 @@ export default function ResumeDossier() {
         <div ref={pdfRef} className="bg-luxury-white p-12">
           <header className="flex justify-between items-end border-b-2 border-luxury-black pb-12 mb-16">
             <div>
-              <h1 className="text-4xl font-serif font-black text-luxury-black uppercase tracking-tighter">William Okumu Onyango</h1>
+              <h1 className="text-4xl font-serif font-black text-luxury-black uppercase tracking-tighter">William Okumu</h1>
               <p className="font-mono text-xs uppercase tracking-[0.5em] text-luxury-gold font-bold mt-2">Advocate of the High Court of Kenya // Justice Reform Advocate</p>
               <div className="flex gap-12 mt-8 font-mono text-[9px] uppercase tracking-widest text-luxury-gray">
                   <span className="flex items-center gap-2"> {CV_DATA.contact.email}</span>
@@ -335,7 +335,7 @@ export default function ResumeDossier() {
                   {/* PDF TEMPLATE CONTENT */}
                   <header className="flex justify-between items-end border-b-2 border-luxury-black pb-12 mb-16">
                     <div>
-                      <h1 className="text-4xl font-serif font-black text-luxury-black uppercase tracking-tighter">William Okumu Onyango</h1>
+                      <h1 className="text-4xl font-serif font-black text-luxury-black uppercase tracking-tighter">William Okumu</h1>
                       <p className="font-mono text-xs uppercase tracking-[0.5em] text-luxury-gold font-bold mt-2">Advocate of the High Court of Kenya // Justice Reform Advocate</p>
                       <div className="flex gap-12 mt-8 font-mono text-[9px] uppercase tracking-widest text-luxury-gray">
                          <span className="flex items-center gap-2"><FileText className="w-3 h-3" /> {CV_DATA.contact.email}</span>

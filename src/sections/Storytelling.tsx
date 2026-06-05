@@ -57,13 +57,13 @@ export default function Storytelling() {
             ))}
           </div>
           <div className="relative z-10 text-center max-w-4xl px-8">
-            <span className="font-mono text-[10px] uppercase tracking-[0.6em] text-luxury-gold/50 mb-8 block">The Spark</span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.6em] text-luxury-gold/50 mb-8 block">Sparks of Justice</span>
             <h3 className="text-5xl lg:text-8xl font-serif italic text-luxury-white leading-tight reveal-text">
               The Inner <br /> 
               <span className="text-luxury-gold">Spark</span> of purpose.
             </h3>
             <p className="mt-12 text-luxury-gray/60 font-light text-lg max-w-2xl mx-auto leading-relaxed">
-              While condemned and judged, I discovered the University of London’s distance learning programme, sponsored by Justice Defenders. With limited resources and challenging conditions, I enrolled and began studying for my Diploma in Common Law and later my LLB. In the darkness behind bars, a new purpose was born.
+              While condemned and judged, I discovered the University of London’s distance learning programme, sponsored by African Prisons Project  (now Justice Defenders). With limited resources and challenging conditions, I enrolled and began studying for my Diploma in Law and later my LLB. In darkness in the gallows , a new purpose was born.
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Storytelling() {
               <span className="italic text-luxury-gold">That Have Cried.</span>
             </h3>
             <p className="mt-12 text-luxury-black/50 font-light text-lg max-w-2xl mx-auto leading-relaxed">
-              I didn’t just study law, I lived it.  Started training fellow inmates in self-representation, legal rights, and court procedures. Using my growing knowledge, I helped many prepare petitions, applications and appeals. My environment became a classroom and a place of hope for hundreds of others.
+              We didn’t just study law, we lived it.  Started training fellow inmates in self-representation, legal rights, and court procedures. Using my growing knowledge, I helped many prepare petitions, applications and appeals. My environment became a classroom and a place of hope for hundreds of others.
             </p>
           </div>
         </div>
@@ -97,12 +97,25 @@ export default function Storytelling() {
           </div>
           <div className="relative z-10 text-center max-w-5xl px-8">
             <span className="font-mono text-[10px] uppercase tracking-[0.6em] text-luxury-gray/40 mb-8 block">Redemption</span>
-            <h3 className="text-5xl lg:text-8xl font-serif font-black text-luxury-black leading-tight reveal-text">
-              FROM THE bar <br /> 
-              <span className="italic text-luxury-gold font-medium">TO THE BAR.</span>
+            <h3 className="text-5xl lg:text-8xl font-serif font-black text-luxury-black leading-[1.4] reveal-text">
+              FROM THE 
+              <span className="relative inline-block mx-4 group">
+                <span className="relative z-10 px-6 py-1 transition-all duration-500 group-hover:opacity-0 group-hover:scale-110">bars</span>
+                <span className="absolute inset-0 border border-luxury-black/10 -skew-x-12 bg-neutral-100 overflow-hidden rounded-lg">
+                  <img src="/images/prison-bar.png" className="w-full h-full object-cover opacity-20 grayscale group-hover:scale-110 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-1000" alt="Prison Bars" />
+                </span>
+              </span>
+              <br /> 
+              <span className="italic text-luxury-gold font-medium">TO THE </span>
+              <span className="relative inline-block mx-4 group not-italic text-luxury-black">
+                <span className="relative z-10 px-6 py-1 transition-all duration-500 group-hover:opacity-0 group-hover:scale-110">BAR.</span>
+                <span className="absolute inset-0 border border-luxury-gold/30 -skew-x-12 bg-luxury-cream overflow-hidden rounded-lg shadow-xl shadow-luxury-gold/5">
+                  <img src="/images/williamrob3.jpeg" className="w-full h-full object-cover object-[center_20%] opacity-10 group-hover:scale-110 group-hover:opacity-100 transition-all duration-1000" alt="William Okumu" />
+                </span>
+              </span>
             </h3>
             <p className="mt-12 text-luxury-gray font-light text-xl max-w-2xl mx-auto leading-relaxed">
-              After my freedom, I joined the Kenya School of Law, completed the Advocates Training Programme, and in 2024 was admitted as an Advocate of the High Court of Kenya. Today, I works with Justice Defenders, giving back through legal aid, quality assurance, and expanding access to legal education, turning my journey into purpose.
+              After my freedom, I joined the Kenya School of Law, completed the Advocates Training Programme, and in 2024 was admitted as an Advocate of the High Court of Kenya. Today, I work with Justice Defenders, giving back through Paralegal services, Legal services, Pro bono Legal supports, quality assurance, and expanding access to legal education, turning my journey into purpose.
             </p>
           </div>
         </div>
@@ -115,19 +128,19 @@ export default function Storytelling() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
               <h3 className="text-5xl lg:text-7xl font-serif text-luxury-black leading-[1.1] reveal-text">
                 ONLY THOSE EYES  <br /> 
-                <span className="italic text-luxury-gold">THAT HAVE</span>. <br />
+                <span className="italic text-luxury-gold">THAT HAVE</span> <br />
                 CRIED<span className="font-black"></span>
               </h3>
               <div className="space-y-8 glass p-12 rounded-[3rem] border-white/50 backdrop-blur-xl">
                 <p className="text-luxury-gray text-lg leading-relaxed italic">
-                  "My journey is a testament to the fact that the legal system can be a vessel for healing and human dignity, especially when informed by the physiology of truth."
+                  "My journey is a testament to the fact that the legal system can be a vessel for healing and human dignity, especially when informed by the physiology of truth and justice."
                 </p>
                 <div className="flex items-center gap-6">
                   <div className="w-12 h-12 rounded-full border border-luxury-gold flex items-center justify-center">
                     <Scale className="w-5 h-5 text-luxury-gold" />
                   </div>
                   <div>
-                    <p className="font-bold text-luxury-black">William Okumu Onyango</p>
+                    <p className="font-bold text-luxury-black">William Okumu</p>
                     <p className="text-[10px] font-mono uppercase tracking-widest text-luxury-gray">Champion of change</p>
                   </div>
                 </div>

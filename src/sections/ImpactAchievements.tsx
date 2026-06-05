@@ -27,7 +27,7 @@ const ACHIEVEMENT_CARDS = [
       "The Court emphasized that punishment must recognize the humanity, circumstances, and dignity of every accused person."
     ],
     roleContribution: {
-      narrative: "William Okumu Onyango played a significant behind-the-scenes role in the constitutional litigation process surrounding the Muruatetu case. He served as a lead drafter involved in preparing key legal materials connected to the petition and contributed to the drafting of constitutional submissions that helped shape the broader legal arguments presented before the Supreme Court.",
+      narrative: "William Okumu played a significant behind-the-scenes role in the constitutional litigation process surrounding the Muruatetu case. He served as a lead drafter involved in preparing key legal materials connected to the petition and contributed to the drafting of constitutional submissions that helped shape the broader legal arguments presented before the Supreme Court.",
       focus: [
         "constitutional interpretation",
         "fair trial rights",
@@ -91,12 +91,12 @@ const ACHIEVEMENT_CARDS = [
     icon: Users,
     metric: "80% Success Rate",
     caseSummary: [
-      "From 2012 to 2025, William Okumu Onyango organized and facilitated legal awareness and inmate legal empowerment sessions across various correctional institutions in Kenya.",
+      "From 2012 to 2025, William Okumu organized and facilitated legal awareness and inmate legal empowerment sessions across various correctional institutions in Kenya.",
       "These initiatives focused on constitutional rights awareness, criminal procedure education, fair trial rights, legal drafting guidance, self-representation training, and access to justice for incarcerated persons.",
       "Through structured legal education and empowerment programs, inmates were equipped with practical legal knowledge enabling them to actively participate in their own legal processes and pursue justice with dignity and informed understanding."
     ],
     roleContribution: {
-      narrative: "William Okumu Onyango’s leadership and advocacy transformed inmate participation in the Kenyan justice system. His programs provided the critical bridge between complex constitutional provisions and practical self-representation in court.",
+      narrative: "William Okumu’s leadership and advocacy transformed inmate participation in the Kenyan justice system. His programs provided the critical bridge between complex constitutional provisions and practical self-representation in court.",
       focus: [
         "constitutional rights awareness",
         "criminal procedure education",
@@ -160,7 +160,7 @@ const ACHIEVEMENT_CARDS = [
     icon: Mic2,
     metric: "2010–2025 Service",
     caseSummary: [
-      "Since 2010, William Okumu Onyango has been deeply involved in providing spiritual and motivational support within the Kenyan prison system. Recognizing that incarceration is a deep psychological and spiritual challenge, his work focuses on restoring hope.",
+      "Since 2010, William Okumu has been deeply involved in providing spiritual and motivational support within the Kenyan prison system. Recognizing that incarceration is a deep psychological and spiritual challenge, his work focuses on restoring hope.",
       "Through dedicated service in church chaplaincies, he has provided a sanctuary for inmates to process their journey, offering motivational leadership that emphasizes personal transformation and accountability.",
       "This accompaniment addresses the foundational human need for dignity and spiritual resilience during the difficult transition from detention back to society."
     ],
@@ -223,7 +223,7 @@ const ACHIEVEMENT_CARDS = [
     icon: Heart,
     metric: "Holistic Justice",
     caseSummary: [
-      "William Okumu Onyango is a pioneer in integrating Somatic Experiencing (SE) into legal practice. He recognizes that the legal system can often be inherently re-traumatizing for victims and defendants alike.",
+      "William Okumu is a pioneer in integrating Somatic Experiencing (SE) into legal practice. He recognizes that the legal system can often be inherently re-traumatizing for victims and defendants alike.",
       "Somatic Experiencing is a body-oriented approach to the healing of trauma. By honoring physiological impacts, this practice allows legal professionals to support clients in a way that prioritizes their safety and nervous system regulation.",
       "This holistic approach ensures that justice is not just a legal outcome, but a process that promotes long-term healing and respects the biological reality of human suffering."
     ],
@@ -392,7 +392,7 @@ const CinematicModalContent = ({ achievement, onClose }: { achievement: any; onC
                 <span className="font-mono text-[10px] lg:text-[12px] uppercase tracking-[1em] text-luxury-gold font-bold italic">Chapter I</span>
                 <div className="h-[1px] w-12 bg-luxury-gold/30" />
               </div>
-              <h2 className="text-5xl lg:text-[clamp(4rem,8vw,8rem)] font-serif font-black text-luxury-black leading-[0.95] uppercase">
+              <h2 className="text-4xl lg:text-[clamp(3rem,7vw,7rem)] font-serif font-black text-luxury-black leading-[0.95] uppercase">
                 {achievement.id === 'landmark' ? (
                   <>THE WEIGHT <br /><span className="italic text-luxury-gold text-[0.8em]">OF MANDATORY</span></>
                 ) : achievement.id === 'chaplaincy' ? (
@@ -459,7 +459,7 @@ const CinematicModalContent = ({ achievement, onClose }: { achievement: any; onC
           </div>
 
           <div className="relative z-10 space-y-16">
-            <h2 className="text-5xl lg:text-8xl font-serif font-bold text-luxury-gold leading-none uppercase">Role & <br /><span className="italic">Contribution</span></h2>
+            <h2 className="text-4xl lg:text-7xl font-serif font-bold text-luxury-gold leading-none uppercase">Role & <br /><span className="italic">Contribution</span></h2>
             
             <p className="text-3xl lg:text-5xl font-serif font-light leading-snug italic text-white/90 max-w-3xl">
               {achievement.roleContribution?.narrative}
@@ -491,7 +491,7 @@ const CinematicModalContent = ({ achievement, onClose }: { achievement: any; onC
           <div className="relative z-10 space-y-16">
              <div className="space-y-6">
                 <span className="font-mono text-[10px] uppercase tracking-[1em] text-luxury-gold">Impact Legacy</span>
-                <h2 className="text-5xl lg:text-9xl font-serif font-black leading-none uppercase">
+                <h2 className="text-3xl lg:text-7xl font-serif font-black leading-none uppercase">
                    {achievement.id === 'landmark' ? 'SYSTEMIC IMPACT' : 'IMPACT HIGHLIGHTS'}
                 </h2>
              </div>
@@ -515,7 +515,7 @@ const CinematicModalContent = ({ achievement, onClose }: { achievement: any; onC
              <div className="pt-24 border-t border-luxury-gold/20 flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left">
                <div className="space-y-4">
                   <span className="font-mono text-[10px] uppercase tracking-widest text-luxury-gray">Steward of Legal Reform</span>
-                  <p className="text-2xl font-serif font-bold text-luxury-black">William Okumu Onyango</p>
+                  <p className="text-2xl font-serif font-bold text-luxury-black">William Okumu</p>
                </div>
                
                <button 
@@ -802,7 +802,7 @@ export default function ImpactAchievements() {
              </p>
              <div className="flex items-center gap-8 border-t border-luxury-gold/20 pt-8 w-full md:w-auto">
                 <div className="flex flex-col">
-                   <span className="text-sm font-bold text-luxury-black">William Okumu Onyango</span>
+                   <span className="text-sm font-bold text-luxury-black">William Okumu</span>
                    <span className="text-[9px] font-mono uppercase tracking-[0.5em] text-luxury-gray">Steward of Legal Reform</span>
                 </div>
                 <div className="h-10 w-[1px] bg-luxury-gold/30" />

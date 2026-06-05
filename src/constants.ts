@@ -1,5 +1,5 @@
 export const CV_DATA = {
-  name: "William Okumu Onyango",
+  name: "William Okumu",
   title: "Advocate of the High Court of Kenya",
   summary: "Performance-driven legal expert with 16 years of experience, specializing in legal services, advocacy, and legal education. Adept at strategic planning, legal research, and transformative communication. Proven ability to lead teams, drive fundraising initiatives, and implement innovative legal solutions.",
   specialization: "Combining trauma-informed legal services with Somatic Experiencing (SE) to support clients in navigating the legal system while honoring physiological and emotional impacts of trauma.",
@@ -64,7 +64,7 @@ export const CV_DATA = {
     "Strategic Planning & Fundraising",
     "Public Speaking",
     "Somatic Experiencing",
-    "IT Maintenance",
+    "IT-Based Legal Services",
     "Team Leadership"
   ],
   contact: {

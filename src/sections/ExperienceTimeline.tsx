@@ -50,7 +50,7 @@ const MILESTONES = [
   },
   {
     year: "Ongoing",
-    title: "Trauma-Informed Praxis",
+    title: "Trauma-Informed Services",
     role: "Somatic Practitioner",
     description: "Integrating Somatic Experiencing (SE) into legal advocacy to honor the physiological impacts of trauma within the justice system.",
     icon: Heart,

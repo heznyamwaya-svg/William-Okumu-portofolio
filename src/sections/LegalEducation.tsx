@@ -276,7 +276,7 @@ export default function LegalEducation() {
                <div className="flex items-center gap-6">
                  <div className="h-12 w-[1px] bg-luxury-gold" />
                  <div>
-                   <p className="font-bold text-luxury-black">William Okumu Onyango</p>
+                   <p className="font-bold text-luxury-black">William Okumu</p>
                    <p className="text-[9px] font-mono uppercase tracking-widest text-luxury-gray">The Legal Educator</p>
                  </div>
                </div>

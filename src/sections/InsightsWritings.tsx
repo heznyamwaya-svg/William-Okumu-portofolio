@@ -268,7 +268,7 @@ export default function InsightsWritings() {
                     <div className="flex items-center gap-6 pt-12 border-t border-white/10">
                        <img src="/images/logo.png" alt="Logo" className="w-12 h-12 object-contain" />
                        <div>
-                          <p className="text-sm font-bold">William Okumu Onyango</p>
+                          <p className="text-sm font-bold">William Okumu</p>
                           <p className="text-[9px] font-mono tracking-widest text-white/40">Advocate & Justice Philosopher</p>
                        </div>
                     </div>
@@ -416,7 +416,7 @@ export default function InsightsWritings() {
                            <span className="font-mono text-[8px] lg:text-[9px] uppercase tracking-[0.4em] text-luxury-gray">The Steward's Journal</span>
                         </div>
                         <div className="font-serif italic text-sm lg:text-base text-luxury-black font-bold border-b-2 border-luxury-gold/20 pb-1">
-                          W. Okumu Onyango
+                          W. Okumu
                         </div>
                      </div>
                    </div>

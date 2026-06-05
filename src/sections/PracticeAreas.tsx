@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Scale, Gavel, FileText, Heart, Shield, GraduationCap, Microscope, Landmark } from 'lucide-react';
+import { Scale, Gavel, FileText, Heart, Shield, GraduationCap, Microscope, Landmark, Target, Cpu, BookOpen } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 const PRACTICE_AREAS = [
@@ -34,13 +34,13 @@ const PRACTICE_AREAS = [
     category: "Reform"
   },
   {
-    title: "Legal Education",
+    title: "Legal Education & Training",
     description: "Empowering future legal minds and inmates through rigorous academic training and paralegal programs.",
     icon: GraduationCap,
     category: "Empowerment"
   },
   {
-    title: "Trauma-Informed Law",
+    title: "Trauma-Informed Services",
     description: "Integrating Somatic Experiencing to support clients navigating the physiological impacts of legal trauma.",
     icon: Microscope,
     category: "Wellbeing"
@@ -50,6 +50,30 @@ const PRACTICE_AREAS = [
     description: "Precision legal scholarship and strategic document preparation for complex judicial proceedings.",
     icon: FileText,
     category: "Strategic"
+  },
+  {
+    title: "Trial Advocacy",
+    description: "Expert courtroom representation and litigation strategy, leveraging deep procedural knowledge and constitutional expertise.",
+    icon: Scale,
+    category: "Litigation"
+  },
+  {
+    title: "Legal Awareness (Prison & Community)",
+    description: "Bridging the justice gap through intensive legal literacy programs for both incarcerated persons and local communities.",
+    icon: BookOpen,
+    category: "Literacy"
+  },
+  {
+    title: "Strategic Management Services",
+    description: "Providing high-level organizational leadership, strategic planning, and fundraising for justice-centered institutions.",
+    icon: Target,
+    category: "Management"
+  },
+  {
+    title: "IT-Based Legal Services",
+    description: "Implementing digital infrastructure and technological frameworks to optimize legal research and organizational workflows.",
+    icon: Cpu,
+    category: "Digital"
   }
 ];
 
@@ -73,14 +97,14 @@ export default function PracticeAreas() {
             >
               <div className="h-[1px] w-12 bg-luxury-gold" />
               <span className="font-mono text-[10px] uppercase tracking-[0.6em] text-luxury-gold font-bold">
-                Expertise & Praxis
+                Expertise & Passion
               </span>
             </motion.div>
             <h2 className="text-5xl lg:text-7xl font-serif font-black text-luxury-black mb-8">
               Areas of <span className="italic text-luxury-gold">Advocacy.</span>
             </h2>
             <p className="text-lg lg:text-xl text-luxury-gray font-light max-w-xl leading-relaxed text-balance">
-              Justice pursued through litigation, education, reform, and human-centered legal practice.
+              Justice pursued through litigation, education, reform, human-centered legal practice, and trauma-informed legal services.
             </p>
           </div>
           
@@ -151,7 +175,7 @@ export default function PracticeAreas() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[1px] bg-luxury-black/5" />
           <div className="relative z-10 max-w-3xl mx-auto">
             <h4 className="text-2xl lg:text-4xl font-serif font-bold italic text-luxury-black/80 mb-8">
-              "We represent not just a case, <br /> but a <span className="text-luxury-gold">person's inherent right</span> to redemption."
+              "We represent not just a case, <br /> but a <span className="text-luxury-gold">person's inherent right</span> to equality and a chance to tell their story."
             </h4>
             <div className="h-12 w-[1px] bg-luxury-gold mx-auto mb-8" />
             <span className="font-mono text-[10px] uppercase tracking-[0.5em] text-luxury-gray">The Steward's Manifesto</span>

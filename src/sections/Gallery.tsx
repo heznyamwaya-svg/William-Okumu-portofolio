@@ -18,7 +18,7 @@ const GALLERY_IMAGES = [
   {
     id: 1,
     title: "The High Court Oath",
-    caption: "William Okumu Onyango sworn in as an Advocate of the High Court of Kenya, cementing a lifelong vow to defenceless human dignity.",
+    caption: "William Okumu sworn in as an Advocate of the High Court of Kenya, cementing a lifelong vow to defenceless human dignity.",
     category: "SACRED OATH",
     date: "2024",
     location: "High Court, Nairobi",
@@ -529,7 +529,7 @@ export default function Gallery() {
                     </div>
                     <div className="flex flex-col">
                       <span className="font-mono text-[8px] uppercase tracking-widest text-white/40">Affiliated Counselor</span>
-                      <span className="text-xs font-bold text-white/90">W. Okumu Onyango</span>
+                      <span className="text-xs font-bold text-white/90">W. Okumu </span>
                     </div>
                   </div>
 

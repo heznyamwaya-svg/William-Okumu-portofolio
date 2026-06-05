@@ -21,7 +21,7 @@ const CASES = [
     citations: ["Muruatetu & another v Republic; Katiba Institute & 5 others (Amicus Curiae) [2017] KESC 2 (KLR)"],
     fullStory: "In Francis Karioko Muruatetu & another v Republic [2017] KESC 2 (KLR), the Supreme Court of Kenya held that the mandatory death sentence under Section 204 of the Penal Code was unconstitutional because it denied courts judicial discretion and violated constitutional rights including dignity, fair trial, equality before the law, and access to justice.\n\nThe judgment fundamentally reshaped Kenyan sentencing jurisprudence by affirming that mitigation and individualized sentencing are essential components of a fair trial under the Constitution of Kenya, 2010.\n\nThe Court emphasized that punishment must recognize the humanity, circumstances, and dignity of every accused person.",
     contributionTitle: "Role & Contribution",
-    contributionNarrative: "William Okumu Onyango played a significant behind-the-scenes role in the constitutional litigation process surrounding the Muruatetu case. He served as a lead drafter involved in preparing key legal materials connected to the petition and contributed to the drafting of constitutional submissions that helped shape the broader legal arguments presented before the Supreme Court.\n\nHis contribution focused on:",
+    contributionNarrative: "William Okumu played a significant behind-the-scenes role in the constitutional litigation process surrounding the Muruatetu case. He served as a lead drafter involved in preparing key legal materials connected to the petition and contributed to the drafting of constitutional submissions that helped shape the broader legal arguments presented before the Supreme Court.\n\nHis contribution focused on:",
     contributionPostFocus: "The case represented a defining moment in Kenya’s constitutional evolution and remains one of the most influential decisions in modern criminal justice reform.",
     contributionFocus: [
       "constitutional interpretation",
@@ -199,7 +199,7 @@ export default function LandmarkCases() {
               <span className="italic text-luxury-gold">Changed Lives.</span>
             </h2>
             <p className="text-xl lg:text-2xl text-luxury-gray font-light max-w-2xl leading-relaxed text-balance">
-              Litigation not only as legal practice, but as a force for justice, dignity, and systemic transformation.
+              Litigation not only as legal practice, but as a vessel and bridge to justice, dignity, and systemic transformation.
             </p>
           </div>
 
@@ -292,7 +292,7 @@ export default function LandmarkCases() {
              <div className="w-[1px] h-20 bg-luxury-gold/20" />
           </div>
           <h4 className="text-3xl lg:text-5xl font-serif font-light text-luxury-black italic leading-[1.3]">
-            “Advocacy becomes meaningful when it restores the <span className="text-luxury-gold font-bold not-italic">humanity</span> the system was built to strip away.”
+            “Advocacy becomes meaningful when it restores the <span className="text-luxury-gold font-bold not-italic">humanity</span> that was overlooked by the system .”
           </h4>
           <div className="mt-12 font-mono text-[10px] uppercase tracking-[0.8em] text-luxury-gray/40">
             William Okumu // Legal Steward
@@ -610,7 +610,7 @@ export default function LandmarkCases() {
                      </div>
                      <div className="flex items-center gap-3">
                         <div className="w-2 h-2 rounded-full bg-luxury-gold animate-pulse" />
-                        <span className="font-serif italic text-sm lg:text-lg text-luxury-black font-medium tracking-tight uppercase">LITIGATED BY WILLIAM OKUMU ONYANGO</span>
+                        <span className="font-serif italic text-sm lg:text-lg text-luxury-black font-medium tracking-tight uppercase">LITIGATED BY WILLIAM OKUMU</span>
                      </div>
                   </div>
               </div>

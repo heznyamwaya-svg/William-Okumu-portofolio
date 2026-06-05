@@ -27,14 +27,14 @@ const NAV_LINKS = [
 const SOCIAL_LINKS = [
   { 
     name: "LinkedIn", 
-    href: "https://linkedin.com", 
+    href: "https://www.linkedin.com/in/william-okumu-31a5b8117?utm_source=share_via&utm_content=profile&utm_medium=member_android", 
     icon: <Linkedin className="w-5 h-5" />, 
     color: "#0A66C2",
     title: "LinkedIn"
   },
   { 
     name: "X", 
-    href: "https://x.com", 
+    href: "https://x.com/smilewillium", 
     icon: (
       <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
         <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.064-6.932zm-1.292 19.49h2.039L6.486 3.24H4.298l13.311 17.403z" />
@@ -45,14 +45,14 @@ const SOCIAL_LINKS = [
   },
   { 
     name: "Facebook", 
-    href: "https://facebook.com", 
+    href: "https://www.facebook.com/share/1aAJDWEA7W/", 
     icon: <Facebook className="w-5 h-5 fill-current" />, 
     color: "#1877F2",
     title: "Facebook"
   },
   { 
     name: "Instagram", 
-    href: "https://instagram.com", 
+    href: "https://www.instagram.com/advwilliamokumusep?igsh=NnU2YnQ0ZzR5NWE1", 
     icon: <Instagram className="w-5 h-5" />, 
     color: "#E4405F",
     title: "Instagram"
@@ -66,7 +66,7 @@ const SOCIAL_LINKS = [
   },
   { 
     name: "TikTok", 
-    href: "https://tiktok.com", 
+    href: "https://www.tiktok.com/@william_okumu?_r=1&_t=ZS-96x2esR1pYH", 
     icon: <Music2 className="w-5 h-5" />, 
     color: "#010101",
     title: "TikTok"
@@ -165,14 +165,14 @@ export default function Footer() {
           <div className="space-y-8">
             <a href="#hero" className="flex items-center gap-4 group">
                <img src="/images/logo.png" alt="Logo" className="w-12 h-12 object-contain" />
-               <span className="font-serif font-bold text-xl text-luxury-black group-hover:text-luxury-gold transition-colors">William Onyango</span>
+               <span className="font-serif font-bold text-xl text-luxury-black group-hover:text-luxury-gold transition-colors">William Okumu</span>
             </a>
             <p className="text-sm text-luxury-gray font-light leading-relaxed">
               Advocate of the High Court of Kenya. Dedicated to human-centered justice reform and rehabilitation systems.
             </p>
             <div className="pt-4 space-y-2">
                <p className="font-mono text-[9px] uppercase tracking-widest text-luxury-gold">Signature Directive</p>
-               <p className="font-serif font-black text-luxury-black italic text-lg">FROM THE BAR TO THE BAR</p>
+               <p className="font-serif font-black text-luxury-black italic text-lg">FROM THE BARS TO THE BAR</p>
             </div>
           </div>
 
@@ -266,7 +266,7 @@ export default function Footer() {
               <path className="signature-path" d="M210,50 L240,50" />
             </svg>
             <div className="flex flex-col items-center gap-2">
-               <span className="font-serif font-black text-2xl tracking-tighter text-luxury-black">William Okumu Onyango</span>
+               <span className="font-serif font-black text-2xl tracking-tighter text-luxury-black">William Okumu</span>
                <span className="font-mono text-[9px] uppercase tracking-[1em] text-luxury-gold pl-2">Advocate of the High Court</span>
             </div>
         </div>

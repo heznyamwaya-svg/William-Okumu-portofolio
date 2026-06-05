@@ -40,7 +40,7 @@ export default function Hero() {
           className="mb-4 lg:mb-6 flex items-center"
         >
           <a href="#hero" className="flex items-center gap-4 group">
-            <img src="/images/logo.png" alt="William Okumu Onyango Logo" className="h-16 lg:h-24 w-auto object-contain drop-shadow-2xl" />
+            <img src="/images/logo.png" alt="William Okumu  Logo" className="h-16 lg:h-24 w-auto object-contain drop-shadow-2xl" />
           </a>
         </motion.div>
 
@@ -51,9 +51,9 @@ export default function Hero() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="text-4xl md:text-5xl lg:text-[4.5vw] font-serif font-black leading-[0.95] lg:leading-[0.9] text-luxury-black tracking-tighter"
           >
-            WILLIAM <br />
-            OKUMU <br />
-            <span className="text-luxury-gold italic">ONYANGO</span>
+            WILLIAM <br /> <br />
+             
+            <span className="text-luxury-gold italic">OKUMU</span>
           </motion.h1>
 
           <motion.div
@@ -146,8 +146,8 @@ export default function Hero() {
           </div>
           <div className="w-[1px] h-10 bg-luxury-gold/20" />
           <div className="flex flex-col gap-1">
-            <span className="font-mono text-[9px] uppercase tracking-widest text-luxury-gray">Somatic Sync</span>
-            <span className="text-sm font-semibold text-luxury-black">Trauma-Informed</span>
+            <span className="font-mono text-[9px] uppercase tracking-widest text-luxury-gray">Somatic Experiencing Practitioner</span>
+            <span className="text-sm font-semibold text-luxury-black">Trauma-Informed Legal Services and Therapy</span>
           </div>
         </motion.div>
       </div>
@@ -182,7 +182,7 @@ export default function Hero() {
           >
             <img 
             src="/images/williamrob2.jpeg" 
-              alt="William Okumu Onyango"
+              alt="William Okumu"
               className="w-full h-full object-cover object-[center_20%] grayscale-[0.2] contrast-[1.05] brightness-[1.02]"
             />
           </div>

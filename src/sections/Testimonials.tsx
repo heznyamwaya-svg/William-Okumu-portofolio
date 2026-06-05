@@ -368,7 +368,7 @@ export default function Testimonials() {
                          <span className="font-mono text-[8px] lg:text-[9px] uppercase tracking-widest text-luxury-gray">Verified Impact Record</span>
                        </div>
                        <div className="h-[1px] flex-1 mx-4 lg:mx-8 bg-luxury-gold/10" />
-                       <span className="font-serif italic text-base lg:text-lg text-luxury-gold font-bold">William Okumu Onyango</span>
+                       <span className="font-serif italic text-base lg:text-lg text-luxury-gold font-bold">William Okumu</span>
                     </div>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ const SKILL_DETAILS: Record<string, { description: string; icon: any }> = {
     description: "Integrating trauma-informed physiological approaches to support client resilience and emotional regulation within the legal process.",
     icon: Shield
   },
-  "IT Maintenance": {
+  "IT-Based Legal Services": {
     description: "Implementing robust digital frameworks to optimize legal research efficiency, communication, and organizational performance.",
     icon: Cpu
   },

@@ -24,7 +24,7 @@ export default function AIWilliam() {
 
     try {
       const genAI = new GoogleGenAI(import.meta.env.VITE_GEMINI_API_KEY || '');
-      const systemInstruction = `You are William AI, a futuristic digital assistant representing William Okumu Onyango.
+      const systemInstruction = `You are William AI, a futuristic digital assistant representing William Okumu.
 William is an Advocate of the High Court of Kenya and a Somatic Experiencing Practitioner.
 He has 16 years of experience in legal aid, justice reform, and trauma-informed legal services.
 
