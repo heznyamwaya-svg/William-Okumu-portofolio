@@ -142,7 +142,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
       <div className="relative z-10 text-center px-6 w-full">
         <div ref={textRef1} className="absolute inset-0 flex items-center justify-center">
           <h2 className="text-5xl lg:text-9xl font-serif font-black italic tracking-tighter text-luxury-black">
-            FROM THE bar
+            FROM THE bars
           </h2>
         </div>
         
